@@ -2,7 +2,14 @@
 @plugin "daisyui";
 
 @theme {
-  --color-Primary: rgb(1, 152, 182);
-  --color-Secondary: #005f73;
-  --color-Accent: #ffd166;
+  --color-Primary: #003f66;
+  --color-Secondary: #00b4d8;
+  --color-Accent: #ff9f1c;
 }
+
+/* Color Fream 2 */
+/* @theme {
+  --color-Primary: rgb(3, 85, 136);
+  --color-Secondary: #001e2b;
+  --color-Accent: #fcbf49;
+} */

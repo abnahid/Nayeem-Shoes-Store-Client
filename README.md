@@ -70,8 +70,6 @@ nayeem-shoes-store/
 └── package.json
 ```
 
-````
-
 ---
 
 ## ⚙️ Installation
@@ -173,4 +171,3 @@ This project is for educational and internal business purposes. Contact the owne
 
 Would you like to include badges (e.g., build status, license, version), contributor info, or link to an API/docs site if available?
 ```
-````
