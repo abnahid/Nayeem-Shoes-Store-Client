@@ -1,19 +1,15 @@
-import ThemeContext from "@/context/ThemeContext";
-import Lottie from "lottie-react";
-import { useContext } from "react";
 import { Link, useRouteError } from "react-router-dom";
-import Error404 from "../assets/lottie/Lost in Space.json";
 
 function ErrorPage() {
   const error = useRouteError();
-  const { isDarkMode } = useContext(ThemeContext);
+  const { isDarkMode } = false;
 
   return (
     <div className={`min-h-screen flex flex-col ${isDarkMode ? "bg-BgDarkPrimary text-gray-200" : "bg-gray-100 text-gray-900"}`}>
       {/* <Navbar /> */}
       <div className="flex flex-col items-center justify-center flex-grow p-4">
         <div className="m-2 w-2/3">
-          <Lottie animationData={Error404} loop={true} />
+          {/* <Lottie animationData={Error404} loop={true} /> */}
         </div>
         <h1 className={`text-4xl font-bold ${isDarkMode ? "text-gray-100" : "text-gray-800"}`}>
           Oops! Page Not Found

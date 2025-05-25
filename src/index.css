@@ -3,6 +3,9 @@
 
 @theme {
   --color-Primary: #003f66;
+  --color-PrimaryDark: #0e1140;
+  --color-PrimaryLight: #094173;
+  --color-White: #f2f2f2;
   --color-Secondary: #00b4d8;
   --color-Accent: #ff9f1c;
 }
